@@ -27,7 +27,7 @@ function Affair(props: AffairPropsType) {
         {/**/}
       </div>
       <div id={"hw2-priority-" + props.affair._id} hidden>
-        {/**/}
+        {props.affair.priority}
       </div>
 
       <button
