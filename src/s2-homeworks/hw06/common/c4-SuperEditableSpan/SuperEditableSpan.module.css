@@ -1,11 +1,22 @@
 .spanBlock {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
 }
 
 .span {
+    width: 400px;
+    color: rgb(0, 128, 255)
 }
 
 .input {
+    appearance: none;
+    border: 1px;
+    padding: 2px;
 }
 
 .pen {
+
 }
