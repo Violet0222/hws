@@ -4,7 +4,6 @@
 .radio::before {
 }
 
-
 .radio:checked::before {
 }
 
@@ -12,4 +11,6 @@
 }
 
 .options {
+  display: flex;
+  flex-direction: column;
 }
