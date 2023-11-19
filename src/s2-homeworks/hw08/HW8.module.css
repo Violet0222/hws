@@ -1,23 +1,64 @@
 .item {
+    border-bottom: 2px solid #E5E5E5;
+    height: 30px;
+    border-collapse: collapse;
 }
+
 
 .item:last-of-type {
 }
 
 .users {
+    width: 606px;
+    border-collapse: collapse
 }
 
 .buttonsContainer {
+    width: 606px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
 }
 
 .thead {
+
+
+    background: #E5E5E5;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+
 }
 
 .nameCol {
+
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+
 }
 
 .ageCol {
+    height: 30px;
+    padding-left: 5px;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+
 }
