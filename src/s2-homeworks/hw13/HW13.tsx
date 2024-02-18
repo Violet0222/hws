@@ -43,7 +43,6 @@ const HW13 = () => {
         // дописать
       })
       .catch((e) => {
-        console.log(e);
         if (e.response.request?.status === 500) {
           setCode("Ошибка 500!");
           setImage(error500);
@@ -57,8 +56,8 @@ const HW13 = () => {
         } else {
           setCode("Error");
           setImage(errorUnknown);
-          setText(e.config.message);
-          setInfo(e.config.name);
+          setText(e.message);
+          setInfo(e.name);
         }
         setIsLoading(false);
 
