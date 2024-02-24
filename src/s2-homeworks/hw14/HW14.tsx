@@ -13,15 +13,7 @@ import { useDispatch } from "react-redux";
  * 4 - сделать стили в соответствии с дизайном
  * 5 - добавить HW14 в HW5/pages/JuniorPlus
  * */
-// type ResponseType<D = {}> = {
-//   resultCode: number;
-//   messages: Array<string>;
-//   fieldsErrors: Array<string>;
-//   data: D;
-// };
 
-// ResponseType<{ techs: string[] }>,
-//     AxiosResponse<ResponseType<{ techs: string[] }>>
 const getTechs = (find: string) => {
   return axios
     .get<{ techs: string[] }>(
@@ -60,9 +52,7 @@ const HW14 = () => {
     // делает студент
 
     // добавить/заменить значение в квери урла
-    // getTechs(find).then((res) => {
     setSearchParams(find);
-    // });
     // setSearchParams(
 
     //
