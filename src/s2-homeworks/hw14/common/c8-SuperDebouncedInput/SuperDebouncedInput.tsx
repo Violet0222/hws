@@ -53,6 +53,7 @@ const SuperDebouncedInput: React.FC<SuperDebouncedInputPropsType> = ({
         onDebouncedChange(value);
       }, 1500);
       setTimerId(newTimerId);
+      console.log(newTimerId);
     }
   };
   // const onChangeTextCallback = (value: string) => {
